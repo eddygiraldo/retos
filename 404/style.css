@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  color: white;
+  width: 100%;
+}
+
+.header {
+  background-color: #21C08B;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 200px;
+  margin: 10px 0 0 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#21C08B, #8F57ED);
+  height: calc(100vh - 200px);
+  text-align: center;
+}
+
+.content p {
+  font-size: 120px;
+  margin: 0 auto;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: pulse;
+}
+
+.footer {
+  background-color: #8F57ED;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
